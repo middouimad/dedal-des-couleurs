@@ -859,9 +859,6 @@ nav .search-box button {
         text-align: left; 
     }
 
-.gallery h3, .artists h3 {
-    font-size: 26px;
-} 
  
     .gallery-images {
         scrollbar-width: none; 
@@ -891,6 +888,9 @@ nav .search-box button {
    
         gap: 30px;
        
+    }
+    .gallery h3, .artist-gallery-container h3{
+        font-size: 26px;
     }
     
   .Mnewsletter{
