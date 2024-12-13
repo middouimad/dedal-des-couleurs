@@ -1,3 +1,6 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -1076,3 +1079,18 @@ margin-bottom: 10%;
 }
 
     
+
+/* Improved focus visibility for accessibility */
+a:focus, button:focus, .toggle-icon:focus, .close-btn:focus {
+    outline: 3px solid #FFA500; /* Orange focus ring */
+    outline-offset: 2px;
+}
+
+/* Enhancing color contrast for text */
+body {
+    color: #222; /* Darker text for readability */
+}
+
+.navbar a:hover, .navbar a:focus {
+    color: #000; /* Ensure strong hover/focus contrast */
+}
