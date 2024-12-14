@@ -9,44 +9,42 @@
 </head>
 <body>
 
-
-
     <div class="container"> 
         <!-- Header Section -->
         <header>
             <h1>DEDAL <br> DES COULEURS</h1>
             <div class="toggle-icon" tabindex="0" role="button" aria-pressed="false" onclick="toggleSidebar()" onkeydown="if(event.key === 'Enter') toggleSidebar()">
-                <i class="fas fa-bars" aria-label="Toggle Sidebar"></i>
+                <i class="fas fa-bars" aria-label="Basculer la barre latérale"></i>
             </div>
-            <nav class="navbar" role="navigation" aria-label="Main Navigation" tabindex="0">
+            <nav class="navbar" role="navigation" aria-label="Navigation principale" tabindex="0">
                 <ul>
-                    <li><a href="#Accueil" aria-label="Go to Accueil section">Accueil</a></li>
-                    <li><a href="#Œuvres" aria-label="Go to Œuvres section">Œuvres</a></li>
-                    <li><a href="#Artistes" aria-label="Go to Artistes section">Artistes</a></li>
-                    <li><a href="#Blog" aria-label="Go to Blog section">Blog</a></li>
-                    <li><a href="#Contact" aria-label="Go to Contact section">Contact</a></li>
+                    <li><a href="#Accueil" aria-label="Aller à la section Accueil">Accueil</a></li>
+                    <li><a href="#Œuvres" aria-label="Aller à la section Œuvres">Œuvres</a></li>
+                    <li><a href="#Artistes" aria-label="Aller à la section Artistes">Artistes</a></li>
+                    <li><a href="#Blog" aria-label="Aller à la section Blog">Blog</a></li>
+                    <li><a href="#Contact" aria-label="Aller à la section Contact">Contact</a></li>
                 </ul>
                 <div class="search-box">
-                    <input type="text" placeholder="Rechercher ..." aria-label="Search for artwork or content">
-                    <button type="submit" aria-label="Search" tabindex="0">
+                    <input type="text" placeholder="Rechercher ..." aria-label="Rechercher une œuvre ou un contenu">
+                    <button type="submit" aria-label="Rechercher" tabindex="0">
                         <i class="fas fa-search"></i>
                     </button>
                 </div>
             </nav>
-            <nav class="sidebar" role="navigation" aria-label="Sidebar Navigation">
-                <span class="close-btn" onclick="toggleSidebar()" onkeydown="if(event.key === 'Enter') toggleSidebar()" aria-label="Close Sidebar">&times;</span>
+            <nav class="sidebar" role="navigation" aria-label="Navigation de la barre latérale">
+                <span class="close-btn" onclick="toggleSidebar()" onkeydown="if(event.key === 'Enter') toggleSidebar()" aria-label="Fermer la barre latérale">&times;</span>
                 <div class="search-box">
-                    <input type="text" placeholder="Rechercher ..." aria-label="Search for artwork or content">
-                    <button type="submit" aria-label="Search" tabindex="0">
+                    <input type="text" placeholder="Rechercher ..." aria-label="Rechercher une œuvre ou un contenu">
+                    <button type="submit" aria-label="Rechercher" tabindex="0">
                         <i class="fas fa-search"></i>
                     </button>
                 </div>
                 <ul>
-                    <li><a href="#Accueil" aria-label="Go to Accueil section">Accueil</a></li>
-                    <li><a href="#Œuvres" aria-label="Go to Œuvres section">Œuvres</a></li>
-                    <li><a href="#Artistes" aria-label="Go to Artistes section">Artistes</a></li>
-                    <li><a href="#Blog-m" aria-label="Go to Blog section">Blog</a></li>
-                    <li><a href="#Contact-m" aria-label="Go to Contact section">Contact</a></li>
+                    <li><a href="#Accueil" aria-label="Aller à la section Accueil">Accueil</a></li>
+                    <li><a href="#Œuvres" aria-label="Aller à la section Œuvres">Œuvres</a></li>
+                    <li><a href="#Artistes" aria-label="Aller à la section Artistes">Artistes</a></li>
+                    <li><a href="#Blog-m" aria-label="Aller à la section Blog">Blog</a></li>
+                    <li><a href="#Contact-m" aria-label="Aller à la section Contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -59,14 +57,14 @@
                     <h2>Galerie d'Art <br> en ligne</h2>
                     <p>Plongez dans un univers d'œuvres <br> exceptionnelles</p>
                 </div>
-                <img src="images/hero-img1.png" alt="Colorful abstract painting representing the art world" class="hero-img">
+                <img src="images/hero-img1.png" alt="Peinture abstraite colorée représentant le monde de l'art" class="hero-img">
             </section>
 
             <section class="slide slide-hero2">
                 <div class="hero2-content">
                     <h2>Achetez des <br> œuvres d'art<br> originales</h2>
                 </div>
-                <img src="images/hero-img2.png" alt="A piece of original artwork with a colorful theme" class="hero-img">
+                <img src="images/hero-img2.png" alt="Une œuvre d'art originale avec un thème coloré" class="hero-img">
             </section>
 
             <section class="slide slide-hero3">
@@ -74,12 +72,12 @@
                     <h2>Trouvez <br> Votre Style <br>Artistique</h2>
                     <p>Laissez-vous inspirer par des œuvres <br> uniques</p>
                 </div>
-                <img src="images/hero-img3.png" alt="An abstract painting showcasing diverse artistic styles" class="hero-img">
+                <img src="images/hero-img3.png" alt="Une peinture abstraite montrant divers styles artistiques" class="hero-img">
             </section>
 
             <div class="carousel-controls">
-                <button class="prev" aria-label="Previous slide">&#10094;</button>
-                <button class="next" aria-label="Next slide">&#10095;</button>
+                <button class="prev" aria-label="Diapositive précédente">&#10094;</button>
+                <button class="next" aria-label="Diapositive suivante">&#10095;</button>
             </div>
         </main>
 
@@ -89,15 +87,15 @@
             <p>Découvrez des œuvres uniques prêtes à sublimer votre espace et enrichir votre collection artistique.</p>
             <div class="gallery-images">
                 <div class="art-piece">
-                    <img src="images/gallery-img1.png" alt="Painting titled Écho Bleu by Artist Name">
+                    <img src="images/gallery-img1.png" alt="Peinture intitulée Écho Bleu par Nom de l'Artiste">
                     <p>Écho Bleu</p>
                 </div>
                 <div class="art-piece">
-                    <img src="images/gallery-img2.png" alt="Painting titled Écho Bleu by Artist Name">
+                    <img src="images/gallery-img2.png" alt="Peinture intitulée Écho Bleu par Nom de l'Artiste">
                     <p>Écho Bleu</p>
                 </div>
                 <div class="art-piece">
-                    <img src="images/gallery-img3.png" alt="Painting titled Écho Bleu by Artist Name">
+                    <img src="images/gallery-img3.png" alt="Peinture intitulée Écho Bleu par Nom de l'Artiste">
                     <p>Écho Bleu</p>
                 </div>
             </div>
@@ -108,17 +106,17 @@
             <h3 id="artists-heading">Les Grands Maîtres et leurs Œuvres</h3>
             <div class="artist-gallery">
                 <div class="artist-piece">
-                    <img src="images/PabloPicasso-Les-rêves.png" alt="Les rêves by Pablo Picasso" />
+                    <img src="images/PabloPicasso-Les-rêves.png" alt="Les rêves par Pablo Picasso" />
                     <h2>Pablo Picasso</h2>
                     <p>Les rêves</p>
                 </div>
                 <div class="artist-piece">
-                    <img src="images/MarcChagall-Le-Violoniste-Bleu.png" alt="Le Violoniste Bleu by Marc Chagall" />
+                    <img src="images/MarcChagall-Le-Violoniste-Bleu.png" alt="Le Violoniste Bleu par Marc Chagall" />
                     <h2>Marc Chagall</h2>
                     <p>Le Violoniste Bleu</p>
                 </div>
                 <div class="artist-piece">
-                    <img src="images/tableau-cariatide.png" alt="Cariatide by Amedeo Modigliani" />
+                    <img src="images/tableau-cariatide.png" alt="Cariatide par Amedeo Modigliani" />
                     <h2>Amedeo Modigliani</h2>
                     <p>Cariatide</p>
                 </div>
@@ -129,70 +127,46 @@
         <section id="Blog" class="newsletter">
             <h3>Restez <br>Connecté <br>à l'Art</h3>
             <p>Abonnez-vous à notre newsletter <br> pour découvrir en avant-première<br>nos nouvelles œuvres</p>
-            <input type="email" id="email" placeholder="Votre adresse e-mail" aria-label="Enter your email address to subscribe">
-            <button aria-label="Subscribe to the newsletter">Je m'abonne</button>
+            <input type="email" id="email" placeholder="Votre adresse e-mail" aria-label="Entrez votre adresse e-mail pour vous abonner">
+            <button aria-label="S'abonner à la newsletter">Je m'abonne</button>
         </section>
 
         <section id="Blog-m" class="Mnewsletter">
             <h3>Restez Connecté <br>à l'Art</h3>
             <p>Abonnez-vous à notre newsletter <br> pour découvrir en avant-première<br>nos nouvelles œuvres</p>
-            <input type="email" id="email-m" placeholder="Votre adresse e-mail" aria-label="Enter your email address to subscribe">
-            <button aria-label="Subscribe to the newsletter">Je m'abonne</button>
+            <input type="email" id="email-m" placeholder="Votre adresse e-mail" aria-label="Entrez votre adresse e-mail pour vous abonner">
+            <button aria-label="S'abonner à la newsletter">Je m'abonne</button>
         </section>
 
         <!-- Footer Section -->
         <footer id="Contact" class="footer">
             <div class="footer-content">
                 <div class="footer-section">
-                    <p><a href="#Accueil" aria-label="Go to Accueil">Accueil</a></p>
-                    <p><a href="#Œuvres" aria-label="Go to Œuvres">Œuvres</a></p>
-                    <p><a href="#Artistes" aria-label="Go to Artistes">Artistes</a></p>
+                    <p><a href="#Accueil" aria-label="Aller à Accueil">Accueil</a></p>
+                    <p><a href="#Œuvres" aria-label="Aller à Œuvres">Œuvres</a></p>
+                    <p><a href="#Artistes" aria-label="Aller à Artistes">Artistes</a></p>
+                    <p><a href="#Blog" aria-label="Aller à Blog">Blog</a></p>
+                    <p><a href="#Contact" aria-label="Aller à Contact">Contact</a></p>
                 </div>
                 <div class="footer-section">
-                    <p><a href="#Blog" aria-label="Go to Blog">Blog</a></p>
+                    <h4>Contactez-Nous</h4>
+                    <p>Adresse : 123 Rue des Arts, Paris</p>
+                    <p>Téléphone : +33 1 23 45 67 89</p>
+                    <p>Email : contact@dedalcouleurs.fr</p>
                 </div>
-                <div class="footer-section-">
-                    <h2>Réseaux sociaux</h2>
-                    <div class="social-links">
-                        <a href="#" aria-label="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
-                        <a href="#" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Visit our LinkedIn page"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section-contact">
-                    <h2>Contact</h2>
-                    <p>Tél: 01.63.45.85.56</p>
-                    <p>Fax: 01.63.45.78.52</p>
-                    <p>Adresse: 10 RUE DE LA RÉPUBLIQUE<br>75000 PARIS</p>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <a href="#" aria-label="Visitez notre page Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Visitez notre page Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Visitez notre page Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-        </footer>
-
-        <footer id="Contact-m" class="mobile-footer">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <p><a href="#Accueil" aria-label="Go to Accueil">Accueil</a></p>
-                    <p><a href="#Œuvres" aria-label="Go to Œuvres">Œuvres</a></p>
-                    <p><a href="#Artistes" aria-label="Go to Artistes">Artistes</a></p>
-                    <p><a href="#Blog" aria-label="Go to Blog">Blog</a></p>
-                </div>
-                <div class="footer-section-rs">
-                    <p><strong>Réseaux sociaux</strong></p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
-                        <a href="#" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Visit our LinkedIn page"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section-contact">
-                    <h2>Contact</h2>
-                    <p>Tél: 01.63.45.85.56</p>
-                    <p>Fax: 01.63.45.78.52</p>
-                    <p>Adresse: 10 RUE DE LA RÉPUBLIQUE<br>75000 PARIS</p>
-                </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dedal des Couleurs. Tous droits réservés.</p>
             </div>
         </footer>
     </div>
+
 
     <script src="script.js"></script>
  
